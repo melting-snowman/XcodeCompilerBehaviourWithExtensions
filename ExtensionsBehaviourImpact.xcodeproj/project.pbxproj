@@ -18,6 +18,8 @@
 		DE067CCD2A6139D4007A00BB /* SampleGroupedClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE067CCC2A6139D4007A00BB /* SampleGroupedClass.swift */; };
 		DE067CCF2A613A79007A00BB /* SampleSplitExtensionsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE067CCE2A613A79007A00BB /* SampleSplitExtensionsClass.swift */; };
 		DEEA13712A613B5500FEF29E /* SampleSplitExtensionsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEA13702A613B5500FEF29E /* SampleSplitExtensionsStruct.swift */; };
+		DEEA13732A613F9100FEF29E /* SampleSplitInGroupsOf100ExtensionsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEA13722A613F9100FEF29E /* SampleSplitInGroupsOf100ExtensionsStruct.swift */; };
+		DEEA13752A61404000FEF29E /* SampleSplitInGroupsOf100ExtensionsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEA13742A61404000FEF29E /* SampleSplitInGroupsOf100ExtensionsClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		DE067CCC2A6139D4007A00BB /* SampleGroupedClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleGroupedClass.swift; sourceTree = "<group>"; };
 		DE067CCE2A613A79007A00BB /* SampleSplitExtensionsClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSplitExtensionsClass.swift; sourceTree = "<group>"; };
 		DEEA13702A613B5500FEF29E /* SampleSplitExtensionsStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSplitExtensionsStruct.swift; sourceTree = "<group>"; };
+		DEEA13722A613F9100FEF29E /* SampleSplitInGroupsOf100ExtensionsStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSplitInGroupsOf100ExtensionsStruct.swift; sourceTree = "<group>"; };
+		DEEA13742A61404000FEF29E /* SampleSplitInGroupsOf100ExtensionsClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSplitInGroupsOf100ExtensionsClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,9 +120,11 @@
 				DE067CCC2A6139D4007A00BB /* SampleGroupedClass.swift */,
 				DE067CC62A613855007A00BB /* SampleGroupedExtensionClass.swift */,
 				DE067CCE2A613A79007A00BB /* SampleSplitExtensionsClass.swift */,
+				DEEA13742A61404000FEF29E /* SampleSplitInGroupsOf100ExtensionsClass.swift */,
 				DE067CCA2A6139B3007A00BB /* SampleGroupedStruct.swift */,
 				DE067CC82A613873007A00BB /* SampleGroupedExtensionStruct.swift */,
 				DEEA13702A613B5500FEF29E /* SampleSplitExtensionsStruct.swift */,
+				DEEA13722A613F9100FEF29E /* SampleSplitInGroupsOf100ExtensionsStruct.swift */,
 			);
 			path = SampleSubjects;
 			sourceTree = "<group>";
@@ -225,12 +231,14 @@
 			files = (
 				DE067CCB2A6139B3007A00BB /* SampleGroupedStruct.swift in Sources */,
 				DE067C9E2A6134F3007A00BB /* ContentView.swift in Sources */,
+				DEEA13732A613F9100FEF29E /* SampleSplitInGroupsOf100ExtensionsStruct.swift in Sources */,
 				DE067CC92A613873007A00BB /* SampleGroupedExtensionStruct.swift in Sources */,
 				DE067CCD2A6139D4007A00BB /* SampleGroupedClass.swift in Sources */,
 				DE067C9C2A6134F3007A00BB /* ExtensionsBehaviourImpactApp.swift in Sources */,
 				DEEA13712A613B5500FEF29E /* SampleSplitExtensionsStruct.swift in Sources */,
 				DE067CCF2A613A79007A00BB /* SampleSplitExtensionsClass.swift in Sources */,
 				DE067CC72A613855007A00BB /* SampleGroupedExtensionClass.swift in Sources */,
+				DEEA13752A61404000FEF29E /* SampleSplitInGroupsOf100ExtensionsClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
